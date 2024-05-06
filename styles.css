@@ -1,2 +1,26 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
 
-/* Your CSS Code here. */
+header,
+nav,
+section {
+  margin-bottom: 20px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}

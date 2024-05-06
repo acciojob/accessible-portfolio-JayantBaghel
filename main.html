@@ -1,16 +1,45 @@
 <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Accessible Portfolio</title>
+  </head>
+  <body>
+    <header role="heading">
+      <h1>My Portfolio</h1>
+    </header>
 
-<html>
+    <nav role="navigation">
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
 
-<head>
-	<link rel="stylesheet" href="styles.css">
-</head>
+    <section id="about">
+      <h2>About Me</h2>
+      <img
+        src="https://images.unsplash.com/photo-1536104968055-4d61aa56f46a?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGNvZGVyfGVufDB8fDB8fHww"
+        alt="A picture of me"
+        role="img"
+      />
+      <p>I am a passionate web developer with a focus on accessibility.</p>
+    </section>
 
-<body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
-
-</body>
-
+    <section id="projects">
+      <h2>Projects</h2>
+      <ul role="list">
+        <li role="listitem">Accessible Website Redesign</li>
+        <li role="listitem">Responsive Web Application</li>
+        <li role="listitem">Inclusive Design Toolkit</li>
+      </ul>
+    </section>
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <p>Feel free to reach out to me via email at example@example.com.</p>
+    </section>
+  </body>
 </html>
